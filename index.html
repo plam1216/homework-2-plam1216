@@ -1,1 +1,133 @@
+<!doctype html>
+<html lang ='en-US'>
+
 <header>
+    <h1>Peter Lam</h1>
+</header>
+
+<style>
+    header {
+        color: coral;
+    }
+    
+    .background {
+        background-image: url("studio.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        /*background-size: 100%;*/
+        opacity: 0.5;
+    }
+    .navbar ul{
+        list-style-type: none;
+        margin:0;
+        padding:0;
+        text-align:center;
+        background-color: mediumpurple;
+    }
+
+    .pages {
+        display:inline-block;
+        padding: 10px;
+    }
+
+    .bodcir {
+        background-color: aqua;
+        display: inline-block;
+        width: 125px;
+        height: 125px;
+        border-radius: 100px;
+        text-align: center;
+        line-height: 125px;
+        margin-right: 30px;
+        font-weight: bold;
+    }
+
+    body {
+        background-color:#D3D3D3;
+    }
+
+    footer {
+        background-color: mediumpurple;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        padding: 20px;
+    }
+
+    /*.footerlinks ul {*/
+        /*list-style-type: none;*/
+        /*!*text-align: center;*!*/
+        /*margin: 0;*/
+        /*padding: 0;*/
+    /*}*/
+
+    .fcir {
+        background-color: coral;
+        display: inline-block;
+        width: 75px;
+        height: 75px;
+        border-radius: 100px;
+        text-align: center;
+        margin-right: 150px;
+    }
+
+    ul.telephone {
+        text-align: right;
+    }
+
+    ul.email {
+        text-align: right;
+    }
+
+    ul.socialmedia {
+        text-align: right;
+    }
+    /*.flink {*/
+        /*display: inline-block;*/
+        /*padding: 10px;*/
+    /*}*/
+</style>
+
+<div class = "background"></div>
+
+<nav class = "navbar">
+    <ul>
+        <li class = "pages"><a href = "index.html"> Home </a></li>
+        <li class = "pages"><a href = "resume.html"> Resume </a></li>
+        <li class = "pages"><a href = "projects.html"> Projects </a></li>
+        <li class = "pages"><a href = "contact.html"> Contact </a></li>
+    </ul>
+</nav>
+
+<body>
+    <h1>Hello...</h1>
+    <p>Some information about me...</p>
+    <div class="bodcir">About Me</div>
+    <div class="bodcir">Projects</div>
+    <div class="bodcir">More</div>
+
+</body>
+
+<footer>
+    <!--<nav class = "footerlinks">-->
+        <div class = "fcir"><li class = "flink"><a href = "telephone.html"> Call </a></li>
+            <ul class = "telephone">
+                Call </br>
+                T: (914)-751-4561
+            </ul>
+        </div>
+        <div class = "fcir"><li class = "flink"><a href = "email.html"> E-Mail </a></li>
+            <ul class = "email">
+                E-Mail </br>
+                pl1316@nyu.edu
+            </ul>
+        </div>
+        <div class = "fcir"><li class = "flink"><a href = "socialmedia.html"> Follow </a></li>
+            <ul class = "socialmedia">
+                Instagram
+            </ul>
+        </div>
+    <!--</nav>-->
+</footer>
+</html>
