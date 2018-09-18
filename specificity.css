@@ -1,25 +1,20 @@
-/* 0,0,0,1 */
 p {
   color: red;
 }
 
-/* 0,1,1,1 */
 #bar p {
   color: black;
 }
 
-/* 0,1,0,0 */
 #google {
   color: orange;
 }
 
-/* 0,2,1,0 */
 .header {
   font-weight:bold;
   color: green;
 }
 
-/* 0,0,1,0 */
 .rand{
     float: right;
     color: blue;
