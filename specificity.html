@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Specificity</title>
+    <link href="spec.css" rel="stylesheet">
+</head>
+<body>
+    <p style="color: red; font-size: 18px; padding-left: 50%"><strong>1,0,0,0</strong></p>
+    <div class="float">
+        <div id="enhance">
+            <a href="http://google.com" id="underline">0,2,1,0</a>
+            <h1>0,1,1,1</h1>
+        </div>
+        <h3>0,0,1,0</h3>
+    </div>
+    <div id="plain-link">
+        <a href="http://www.google.com">0,1,0,0</a>
+    </div>
+    <p>0,0,0,1</p>
+</body>
+</html>
